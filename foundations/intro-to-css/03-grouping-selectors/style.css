@@ -1,6 +1,17 @@
 /* Add CSS Styling */
 
-.font-rework {
+#first-button,
+#second-button {
     font-size: 28px;
     font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+#first-button {
+    background-color: oklch(0.279 0.035 276.937);
+    color: rgb(202, 211, 245);
+}
+
+#second-button {
+    background-color: hsl(267deg, 83%, 80%);
+    color: #181926;
 }
