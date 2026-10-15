@@ -7,9 +7,25 @@ img {
   height: 100px;
 }
 
+.flexwrapper {
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+  gap: 52px;
+  flex-basis: 200px;
+  text-align: center;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
 
 /* do not edit this footer */
