@@ -20,6 +20,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 12px;
 }
 
 .icon {
@@ -33,6 +35,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 1 0 auto;
+  margin-right: 15px;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.userprompt {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .close-button {
